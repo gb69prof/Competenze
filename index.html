@@ -1,0 +1,247 @@
+<!doctype html>
+<html lang="it">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Il valore delle competenze | Educazione civica</title>
+  <meta name="description" content="PWA didattica sul valore delle competenze, sulla certificazione e sul loro fondamento civico, costituzionale ed europeo." />
+  <meta name="theme-color" content="#071f4a" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" href="assets/icons/icon-192.png" />
+  <link rel="apple-touch-icon" href="assets/icons/icon-192.png" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="app-shell">
+    <header class="hero" id="top">
+      <nav class="topbar" aria-label="Navigazione principale">
+        <a class="brand" href="#top" aria-label="Torna all'inizio">
+          <span class="brand-mark">C</span>
+          <span><strong>Competenze</strong><small>Educazione civica</small></span>
+        </a>
+        <button class="menu-toggle" aria-expanded="false" aria-controls="navLinks">☰</button>
+        <div class="nav-links" id="navLinks">
+          <a href="#percorsi">Percorsi</a>
+          <a href="#normativa">Normativa</a>
+          <a href="#laboratorio">Laboratorio</a>
+          <a href="#verifica">Verifica</a>
+        </div>
+      </nav>
+
+      <section class="hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">Educazione civica · competenze · certificazione</p>
+          <h1>Il valore delle competenze</h1>
+          <p class="lead">Una competenza non è solo ciò che sai: è ciò che sai usare nella realtà, con autonomia, responsabilità e consapevolezza.</p>
+          <div class="hero-actions">
+            <a class="btn primary" href="#percorsi">Inizia i percorsi</a>
+            <a class="btn ghost" href="#normativa">Fondamento normativo</a>
+          </div>
+        </div>
+        <button class="hero-slide image-open" data-img="assets/slides/00-panoramica.png" aria-label="Apri la slide panoramica a schermo intero">
+          <img src="assets/slides/00-panoramica.png" alt="Slide panoramica: Il valore delle competenze e della loro certificazione" />
+        </button>
+      </section>
+    </header>
+
+    <main>
+      <section class="section intro-panel">
+        <div class="intro-card">
+          <h2>Idea guida</h2>
+          <p><strong>In una società democratica, le competenze non devono restare invisibili.</strong> Se una persona sa fare qualcosa, deve poterlo mostrare, documentare e vedere riconosciuto.</p>
+        </div>
+        <div class="intro-card accent">
+          <h2>Frase chiave</h2>
+          <p>Le competenze sono il punto in cui il diritto allo studio diventa capacità reale di partecipare alla società.</p>
+        </div>
+      </section>
+
+      <section class="section" id="percorsi">
+        <div class="section-heading">
+          <p class="eyebrow">I quattro percorsi della PWA</p>
+          <h2>Studiare le competenze attraversando quattro domande</h2>
+          <p>Ogni immagine è una porta: apre un percorso autonomo, ma collegato agli altri. Non sono “capitoletti”: sono quattro passaggi di cittadinanza.</p>
+        </div>
+
+        <div class="course-grid">
+          <article class="course-card" style="--accent:#087586">
+            <button class="thumb image-open" data-img="assets/slides/01-che-cosa-competenza.png">
+              <img src="assets/slides/01-che-cosa-competenza.png" alt="Slide: Che cos'è una competenza" />
+            </button>
+            <div class="course-body">
+              <span class="pill">Percorso 1</span>
+              <h3>Che cos’è una competenza?</h3>
+              <p>La competenza nasce quando il sapere entra nella realtà: non coincide con la semplice conoscenza, ma con la capacità di usare ciò che si sa in modo efficace e consapevole.</p>
+              <a class="read-link" href="#competenza">Apri percorso</a>
+            </div>
+          </article>
+
+          <article class="course-card" style="--accent:#0c648d">
+            <button class="thumb image-open" data-img="assets/slides/02-perche-importante.png">
+              <img src="assets/slides/02-perche-importante.png" alt="Slide: Perché è importante" />
+            </button>
+            <div class="course-body">
+              <span class="pill">Percorso 2</span>
+              <h3>Perché è importante?</h3>
+              <p>Le competenze rendono la persona più autonoma, più partecipe e più pronta ad affrontare la realtà: trasformano il sapere in possibilità reale di azione.</p>
+              <a class="read-link" href="#importanza">Apri percorso</a>
+            </div>
+          </article>
+
+          <article class="course-card" style="--accent:#d4890b">
+            <button class="thumb image-open" data-img="assets/slides/03-questione-giustizia.png">
+              <img src="assets/slides/03-questione-giustizia.png" alt="Slide: Una questione di giustizia" />
+            </button>
+            <div class="course-body">
+              <span class="pill">Percorso 3</span>
+              <h3>Una questione di giustizia</h3>
+              <p>Riconoscere le competenze significa dare valore alle capacità reali, riducendo sprechi, esclusione, false apparenze e giudizi fondati solo sui titoli.</p>
+              <a class="read-link" href="#giustizia">Apri percorso</a>
+            </div>
+          </article>
+
+          <article class="course-card" style="--accent:#274fbd">
+            <button class="thumb image-open" data-img="assets/slides/04-tempo-ia.png">
+              <img src="assets/slides/04-tempo-ia.png" alt="Slide: Nel tempo dell'intelligenza artificiale" />
+            </button>
+            <div class="course-body">
+              <span class="pill">Percorso 4</span>
+              <h3>Nel tempo dell’IA</h3>
+              <p>Con l’intelligenza artificiale non basta usare strumenti: bisogna pensare, verificare, collaborare e restare responsabili delle scelte.</p>
+              <a class="read-link" href="#ia">Apri percorso</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="learning-path" id="competenza">
+        <div class="path-image"><button class="image-open" data-img="assets/slides/01-che-cosa-competenza.png"><img src="assets/slides/01-che-cosa-competenza.png" alt="Che cos'è una competenza" /></button></div>
+        <div class="path-text">
+          <p class="eyebrow">Percorso 1</p>
+          <h2>Che cos’è una competenza?</h2>
+          <p>Una competenza non è solo ciò che uno studente sa ripetere. È ciò che riesce a usare in una situazione concreta, scegliendo strategie adeguate e assumendosi una responsabilità.</p>
+          <div class="flow"><span>Conoscenze</span><b>→</b><span>Abilità</span><b>→</b><strong>Competenza</strong></div>
+          <ul class="checklist">
+            <li>affronta una situazione reale;</li>
+            <li>sceglie il comportamento più adatto;</li>
+            <li>agisce con autonomia e responsabilità.</li>
+          </ul>
+          <blockquote>La competenza nasce quando il sapere entra nella realtà.</blockquote>
+        </div>
+      </section>
+
+      <section class="learning-path reverse" id="importanza">
+        <div class="path-image"><button class="image-open" data-img="assets/slides/02-perche-importante.png"><img src="assets/slides/02-perche-importante.png" alt="Perché le competenze sono importanti" /></button></div>
+        <div class="path-text">
+          <p class="eyebrow">Percorso 2</p>
+          <h2>Perché è importante?</h2>
+          <p>Le competenze sono importanti perché non restano chiuse nei libri: rendono la persona più autonoma, più partecipe e più capace di leggere la realtà.</p>
+          <div class="quad-list">
+            <span>Autonomia</span><span>Partecipazione</span><span>Lavoro e cittadinanza</span><span>Valore reale</span>
+          </div>
+          <p>Chi possiede competenze può capire, scegliere, agire, collaborare e orientarsi. Non è una questione solo lavorativa: è una questione civile.</p>
+          <blockquote>Senza competenze, la libertà resta fragile. Con le competenze, diventa partecipazione e responsabilità.</blockquote>
+        </div>
+      </section>
+
+      <section class="learning-path" id="giustizia">
+        <div class="path-image"><button class="image-open" data-img="assets/slides/03-questione-giustizia.png"><img src="assets/slides/03-questione-giustizia.png" alt="Le competenze come questione di giustizia" /></button></div>
+        <div class="path-text">
+          <p class="eyebrow">Percorso 3</p>
+          <h2>Una questione di giustizia</h2>
+          <p>Una società giusta non dovrebbe premiare soltanto ciò che appare: titoli, appartenenze, impressioni, vantaggi iniziali. Dovrebbe riconoscere anche ciò che una persona sa fare davvero.</p>
+          <ul class="checklist">
+            <li><strong>Oltre i titoli:</strong> non basta il documento, serve il valore reale.</li>
+            <li><strong>Capacità reali:</strong> merito e impegno devono poter emergere.</li>
+            <li><strong>Inclusione:</strong> riconoscere competenze riduce esclusione e disuguaglianze.</li>
+            <li><strong>Contro le apparenze:</strong> le competenze smascherano il vuoto vestito bene.</li>
+          </ul>
+          <blockquote>Una società giusta non premia solo ciò che appare, ma riconosce ciò che vale davvero.</blockquote>
+        </div>
+      </section>
+
+      <section class="learning-path reverse" id="ia">
+        <div class="path-image"><button class="image-open" data-img="assets/slides/04-tempo-ia.png"><img src="assets/slides/04-tempo-ia.png" alt="Competenze nel tempo dell'intelligenza artificiale" /></button></div>
+        <div class="path-text">
+          <p class="eyebrow">Percorso 4</p>
+          <h2>Nel tempo dell’IA</h2>
+          <p>L’intelligenza artificiale rende ancora più importante il tema delle competenze. Non basta saper premere un pulsante: bisogna capire che cosa si sta chiedendo, controllare le risposte e restare responsabili dell’uso.</p>
+          <div class="quad-list five"><span>Pensiero critico</span><span>Verifica fonti</span><span>Responsabilità</span><span>Collaborazione</span><span>Uso consapevole</span></div>
+          <blockquote>L’IA è uno strumento potente. La competenza vera è saperla guidare, non subirla.</blockquote>
+        </div>
+      </section>
+
+      <section class="section normative" id="normativa">
+        <div class="section-heading compact">
+          <p class="eyebrow">Fondamento normativo</p>
+          <h2>Costituzione, Europa, Italia</h2>
+          <p>La Costituzione non parla di “competenza” nel senso scolastico moderno, ma ne fonda il senso attraverso persona, uguaglianza sostanziale, istruzione, lavoro e partecipazione.</p>
+        </div>
+        <div class="norm-grid">
+          <article><h3>Costituzione italiana</h3><p><strong>Art. 2</strong> sviluppo della persona e doveri di solidarietà.</p><p><strong>Art. 3</strong> uguaglianza sostanziale e rimozione degli ostacoli.</p><p><strong>Art. 4</strong> diritto al lavoro e contributo al progresso sociale.</p><p><strong>Art. 33-34</strong> scuola, istruzione e diritto allo studio.</p><p><strong>Art. 35</strong> formazione ed elevazione professionale dei lavoratori.</p></article>
+          <article><h3>Europa</h3><p><strong>Raccomandazione UE 22 maggio 2018</strong>: competenze chiave per l’apprendimento permanente.</p><p><strong>EQF 2017</strong>: quadro europeo delle qualifiche, risultati di apprendimento, responsabilità e autonomia.</p></article>
+          <article><h3>Italia</h3><p><strong>D.M. 139/2007</strong>: obbligo di istruzione e competenze chiave di cittadinanza.</p><p><strong>D.Lgs. 13/2013</strong>: sistema nazionale di certificazione delle competenze.</p><p><strong>L. 92/2019</strong>: educazione civica.</p><p><strong>D.M. 183/2024</strong>: Linee guida educazione civica.</p><p><strong>D.M. 14/2024</strong>: nuovi modelli di certificazione delle competenze.</p></article>
+        </div>
+      </section>
+
+      <section class="section lab" id="laboratorio">
+        <div>
+          <p class="eyebrow">Attività operativa</p>
+          <h2>Laboratorio: il mio profilo di competenze</h2>
+          <p>Gli studenti costruiscono una piccola scheda personale: non per vantarsi, ma per imparare a dare un nome serio a ciò che sanno fare.</p>
+        </div>
+        <div class="lab-card">
+          <h3>Scheda di lavoro</h3>
+          <ol>
+            <li>Indica tre competenze che possiedi.</li>
+            <li>Per ciascuna, racconta una situazione concreta.</li>
+            <li>Spiega come potresti dimostrarla.</li>
+            <li>Scegli una competenza da migliorare.</li>
+            <li>Scrivi un piano realistico di miglioramento.</li>
+          </ol>
+        </div>
+      </section>
+
+      <section class="section verify" id="verifica">
+        <div class="section-heading compact">
+          <p class="eyebrow">Verifica rapida</p>
+          <h2>Tre domande per chiudere il percorso</h2>
+        </div>
+        <div class="quiz" data-quiz>
+          <div class="question" data-answer="b">
+            <h3>1. Una competenza è soprattutto...</h3>
+            <button data-choice="a">una nozione imparata a memoria</button>
+            <button data-choice="b">un sapere usato bene in una situazione reale</button>
+            <button data-choice="c">un titolo formale</button>
+          </div>
+          <div class="question" data-answer="c">
+            <h3>2. La certificazione...</h3>
+            <button data-choice="a">crea automaticamente la competenza</button>
+            <button data-choice="b">sostituisce l’esperienza concreta</button>
+            <button data-choice="c">rende riconoscibile una competenza accertata</button>
+          </div>
+          <div class="question" data-answer="a">
+            <h3>3. Nel tempo dell’IA, la competenza decisiva è...</h3>
+            <button data-choice="a">saper guidare, verificare e usare responsabilmente gli strumenti</button>
+            <button data-choice="b">usare l’IA senza controllare nulla</button>
+            <button data-choice="c">delegare ogni scelta alla macchina</button>
+          </div>
+          <div class="quiz-result" aria-live="polite"></div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p><strong>Il valore delle competenze</strong> · PWA didattica per educazione civica</p>
+      <a href="#top">Torna su ↑</a>
+    </footer>
+  </div>
+
+  <dialog class="lightbox" id="lightbox">
+    <button class="close" aria-label="Chiudi immagine">×</button>
+    <img alt="Slide ingrandita" />
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>
